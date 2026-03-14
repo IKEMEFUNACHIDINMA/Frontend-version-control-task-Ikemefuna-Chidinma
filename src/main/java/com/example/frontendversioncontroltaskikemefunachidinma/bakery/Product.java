@@ -7,6 +7,6 @@ public class Product {
     private Long id;
     private String name;
     private double price;
-    private Category category
+    private Category category;
 
 }
