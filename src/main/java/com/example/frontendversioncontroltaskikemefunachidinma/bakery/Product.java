@@ -1,0 +1,12 @@
+package com.example.frontendversioncontroltaskikemefunachidinma.bakery;
+
+import lombok.Data;
+
+@Data
+public class Product {
+    private Long id;
+    private String name;
+    private double price;
+    private Category category;
+
+}
