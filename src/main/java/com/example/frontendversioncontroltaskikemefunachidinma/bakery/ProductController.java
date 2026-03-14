@@ -18,4 +18,12 @@ public class ProductController {
         return List.of("Vanilla Cake", "Red Velvet", "Butter cream icing cupcakes", "Chocolate Chip Cookies", "Chocolate Cake");
     }
 
+    @GetMapping("/{id}")
+    public String getProductById(@PathVariable Long id) {
+        if (id <= 0) {
+            logger.error("Invalid Product ID: {}", id);
+            return "Error: ID must be greater than 0";
+        }
+        return "Product Found: " + id;
+    }
 }
