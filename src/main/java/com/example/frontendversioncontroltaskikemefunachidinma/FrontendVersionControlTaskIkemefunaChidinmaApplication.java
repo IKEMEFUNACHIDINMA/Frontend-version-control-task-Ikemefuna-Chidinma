@@ -1,0 +1,13 @@
+package com.example.frontendversioncontroltaskikemefunachidinma;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class FrontendVersionControlTaskIkemefunaChidinmaApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(FrontendVersionControlTaskIkemefunaChidinmaApplication.class, args);
+    }
+
+}
